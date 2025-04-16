@@ -1,3 +1,4 @@
+import SmallButton from '@/components/common/SmallButton'
 import React from 'react'
 
 type MobileMenuProps = {
@@ -26,8 +27,8 @@ export default function MobileMenu({ onClose }: MobileMenuProps) {
 
                 {/* Right Menu */}
                 <div className='flex flex-col gap-4 items-start mt-8 text-lg'>
-                    <div className='px-4 border border-black rounded-full font-bold'>Our Work</div>
-                    <div className='px-4 border border-black rounded-full font-bold'>Get Involved</div>
+                    <SmallButton label={'Our Work'} />
+                    <SmallButton label={'Get Involved'} />
                 </div>
             </div>
 

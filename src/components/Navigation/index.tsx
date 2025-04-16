@@ -17,7 +17,8 @@ export default function Navigation() {
     return (
         <nav className='h-16 w-full flex items-center justify-center md:justify-between bg-white relative md:px-10'>
             {/* Hamburger Button */}
-            <button className="absolute left-4 md:hidden"
+            <button
+                className="absolute left-4 md:hidden"
                 onClick={() => handleToggle()}
             >
                 <HamburgerIcon />

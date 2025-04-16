@@ -1,5 +1,7 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import Image from 'next/image'
+import CaraouselOverlay from '../Overlay';
 
 type CarouselItemProps = {
     image: string;
@@ -9,10 +11,19 @@ type CarouselItemProps = {
 };
 
 export default function CarouselItem({ image, title, date, is_live }: CarouselItemProps) {
+    const [isClicked, setIsClicked] = useState(false);
+
+    const handleClick = () => {
+        setIsClicked(!isClicked)
+    }
+
     return (
         <div className='flex flex-col gap-3 hover:cursor-pointer'>
-            {/* Thumbnail videonya */}
-            <div className='relative h-[188px] w-[282px] md:w-[383px] bg-black rounded-lg'>
+            {/* List Item */}
+            <div
+                className='relative h-[188px] w-[282px] md:w-[383px] bg-black rounded-lg'
+                onClick={handleClick}
+            >
                 <div className="absolute w-[72px] h-[72px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-md z-20">
                     <Image
                         src="icons/play-icon.svg"
@@ -43,6 +54,12 @@ export default function CarouselItem({ image, title, date, is_live }: CarouselIt
                     </small>
                 </div>
             </div>
+
+            {/* Overlay Youtube */}
+            {isClicked && (
+                <CaraouselOverlay onClose={handleClick}/>
+            )}
+
         </div>
     )
 }

@@ -12,10 +12,12 @@ export default function Home() {
       <Navigation />
       <Hero />
       <Caraosel />
+
       <div className="flex flex-col gap-4 md:flex-row">
         <News />
         <Community />
       </div>
+      
       <div className="h-[100px]"></div>
     </div>
   );

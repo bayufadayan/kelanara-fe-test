@@ -3,26 +3,65 @@
 Dibuat menggunakan Next.js 15 (App Router), Tailwind CSS, dan TypeScript.
 
 ## 💻 Live Website
-🔗 [kelanara-aviary-bird.vercel.app](https://kelanara-aviary-bird.vercel.app/)
 
-## 🚀 Cara Menjalankan Project
+🔗 [kelanara-aviary-bird.vercel.app](https://kelanara-aviary-bird.vercel.app/)
+🔗 [Github](https://github.com/bayufadayan/kelanara-fe-test)
+
+## 🚀 Cara Menjalankan Project (Via File Zip)
 
 ### 1. Ekstrak File Zip ini
+
 ### 2. Buka Folder di VS Code
+
 ### 3. Buka Terminal dan Jalankan Dependencies
+
 ```bash
 npm install
 ```
+
 ### 4.0 Jalankan di mode development
+
 ```bash
 npm run dev
 ```
+
 ### 4.1 Jalankan di mode production
+
 ```bash
 npm run build
 npm start
 ```
+
 ### 5. Buka di browser
+
+```
+http://localhost:3000
+```
+
+## 🚀 Cara Menjalankan Project (Via Github Clone)
+
+### 1. Clone Repo ini
+
+```bash
+git clone https://github.com/bayufadayan/kelanara-fe-test.git
+```
+
+### 2. Buka di VS Code
+
+### 3. Buka Terminal dan Jalankan Dependencies
+
+```bash
+npm install
+```
+
+### 4 Jalankan di mode development
+
+```bash
+npm run dev
+```
+
+### 5. Buka di browser
+
 ```
 http://localhost:3000
 ```
@@ -93,11 +132,11 @@ http://localhost:3000
 
 ## 💡 Ketentuan Rekrutment
 
-- ✅ Menggunakan **Next.js v15 (App Router)**  
-- ✅ Menggunakan **React Functional Component**  
-- ✅ Styling menggunakan **Tailwind CSS**  
-- ✅ Komponen **reusable** (seperti header, card, dll)  
-- ✅ Layout **responsif** (mobile & desktop)  
+- ✅ Menggunakan **Next.js v15 (App Router)**
+- ✅ Menggunakan **React Functional Component**
+- ✅ Styling menggunakan **Tailwind CSS**
+- ✅ Komponen **reusable** (seperti header, card, dll)
+- ✅ Layout **responsif** (mobile & desktop)
 - ✅ Embed video YouTube (https://youtu.be/YQCo9rWFgAY?si=K-IUSt2KA8ar97yW)
 
 ---

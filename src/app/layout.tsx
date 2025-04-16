@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Aviary Birds",
   description: "Animal Rescue Blog",
+  icons: {
+    icon: "/images/logo.png",
+  },
 };
 
 export default function RootLayout({

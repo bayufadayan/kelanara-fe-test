@@ -1,0 +1,26 @@
+[
+  {
+    "image": "carousel-tn-1.png",
+    "title": "Papua - Cendrawasih",
+    "date": "Senin, 14 April 2025",
+    "is_live": true
+  },
+  {
+    "image": "carousel-tn-2.png",
+    "title": "Bali - Jalak Bali",
+    "date": "Selasa, 15 April 2025",
+    "is_live": true
+  },
+  {
+    "image": "carousel-tn-3.png",
+    "title": "Papua - Cendrawasih",
+    "date": "Senin, 14 April 2025",
+    "is_live": false
+  },
+  {
+    "image": "carousel-tn-4.png",
+    "title": "Bali - Jalak Bali",
+    "date": "Selasa, 15 April 2025",
+    "is_live": true
+  }
+]
